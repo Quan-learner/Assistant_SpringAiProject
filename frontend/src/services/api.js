@@ -1,7 +1,7 @@
 import { clearAuthSession, getAccessToken, setAuthSession } from '../utils/auth'
 import { clearAllSessionStore } from '../utils/sessionStore'
 
-export const BASE_URL = 'http://localhost:8080'
+export const BASE_URL = window.location.origin
 const API_PREFIX = '/api'
 
 const buildUrl = (path, query = {}) => {
