@@ -1,4 +1,4 @@
-# AI Assistant Hub 项目说明文档
+# Assistant_SpringAiProject 项目说明文档
 
 ## 一、项目简介
 
